@@ -1,0 +1,14 @@
+Description: Using attributes of homes in the Richmond, VA area, predict the sales price of each home.  
+Attributes in the dataset include: neighborhood name, parcel id, sales price, grantor, grantee, number of floors, year built, and square feet. Based on the Ames, Iowa Kaggle competition: https://www.kaggle.com/c/house-prices-advanced-regression-techniques#description 
+
+Datasets: CSV file that contains 9,874 rows for 2014-2017 sales in Richmond,VA. Data source is from Richmond County Assessor’s office. *(Note: 2017 data is only through Oct 2017, but file is updated first month of each quarter, according to the assessor’s office). The other dataset would be Zillow’s median sales price data for all housing types. This dataset includes 88 metro areas, including Richmond from March 2008 to December 2017. 
+Richmond data source: https://docs.google.com/spreadsheets/d/1nrvYQVCBhApPfm_7qHhUUhnRdrQr4Wftl9aYc_vm-mU/edit?usp=drive_web 
+Zillow data source: https://docs.google.com/spreadsheets/d/17bSItKcizMRIEltAw_LQhDdjc4bVvdnFFyxxCloGrW4/edit?usp=drive_web 
+
+Analysis: Some of the primary questions I have: 
+Which attributes contribute the most to predict the values of homes?
+Further analyze data to predict values by neighborhood
+Are certain grantors indicative of lower / higher priced homes?
+Using housing data from assessor’s office, perform multicollinearity with zillow median price data to predict the median price. Are these attributes enough to predict median home price data?
+
+The results can be beneficial for home buyers, investors, economists, and the construction industry. They would be able to find value in underpriced homes, and have more confidence in the home buying process. 
